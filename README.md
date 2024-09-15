@@ -1,10 +1,8 @@
-# AI-Powered-5G-OpenRAN-Optimizer
-Welcome to the AI-Powered 5G Open RAN Optimizer repository! 
+#  Nexus Predict : Network Maintenance with Edge AI
+Welcome to the  Nexus Predict : Network Maintenance with Edge AI
 
 ## Overview
-This repository contains an AI-powered optimization system for Open RAN that leverages machine learning algorithms to optimize the performance of the network. The system can learn from historical data, real-time network data, and external data sources to identify network anomalies, predict network traffic, and optimize network resources allocation.
-
-The AI-powered optimization system includes the following features:
+The  Nexus Predict : Network Maintenance with Edge AIsystem includes the following features:
 
 ~ Network Anomaly Detection: The system can detect network anomalies and performance degradation in real-time by analyzing network data, such as traffic patterns, signal strength, and congestion.
 
@@ -25,12 +23,12 @@ The project is structured as follows:
 
 ~ `notebooks`: This folder contains Jupyter notebooks that were used to develop, test, and analyze the machine learning models.
 
-~ `src`: This folder contains the source code for the AI-powered optimization system, including scripts for data preprocessing, training, and inference.
+~ `src`: This folder contains the source code for the  Nexus Predict system, including scripts for data preprocessing, training, and inference.
 
-~ `tests`: This folder contains unit tests and integration tests for the AI-powered optimization system.
+~ `tests`: This folder contains unit tests and integration tests for the  Nexus Predict system.
 
 ## Installation
-To install the AI-powered optimization system, follow these steps:
+To install the Nexus Predict System, follow these steps:
 
 1. Clone the repository:
 ```bash 
@@ -42,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To use the AI-powered optimization system, follow these steps:
+To use the  Nexus Predict System, follow these steps:
 
 1. Prepare the data:
 ```bash 
@@ -56,12 +54,11 @@ python src/train.py --input <training_data_path> --output <models_path>
 ```bash 
 python src/evaluate.py --input <evaluation_data_path> --models <models_path>
 ```
-4. Run the AI-powered optimization system:
+4. Run the  Nexus Predict System:
 ```bash
 python src/optimize.py --input <real-time_data_path> --models <models_path> --output <optimized_data_path>
 ```
-## Acknowledgments
-This project was developed by Salim EL GHALBOZURI -Azure AI Engineer- as part of National Institute of Postes and Telecommunications's 5G-RAN Engineer program. We would like to acknowledge the contributions of the Open RAN community and the open-source AI frameworks used in this project.
+
 
 ## Contributing
 This project is a work in progress, and we welcome contributions from developers and researchers. If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
